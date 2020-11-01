@@ -20,8 +20,6 @@ $(document).ready(function () {
 		console.log("URL params: " + JSON.stringify(params));
 	}
  });
-
-
 $(document).on('click','#find_reservation',function(){
 	console.log("Here");
 	$(".no_results").hide();
