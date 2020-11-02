@@ -20,8 +20,9 @@
 .git  {
 	padding: 7px;
 	width: 33.33%;
-	min-height: 100px;
+	min-height: 200px;
 	text-align: justify;
+	margin: 0 auto;
 }
 
 
@@ -48,13 +49,14 @@
 }
 
 #git_img {
-	min-height: 50px;
+	min-height: 100px;
 }
 
 #git_columns {
-	height:50%;
-	border-radius: 0;
-	border:0;
+	width:80%;
+	overflow:hidden;
+	margin: 0 auto;	
+	height:100%;
 }
 
 .header {
